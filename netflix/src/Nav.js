@@ -36,9 +36,6 @@ useEffect(() => {
     alt="Netflix Avatar"
     />
     
-    
-    
-    
     </div>
   );
 }
