@@ -47,15 +47,14 @@
 
 
 @media (max-width: 768px) {
-    .row__poster {
-        max-height: 120px;
-    }
-    .row__posterLarge {
-        max-height: 250px;
-    }
-    .row {
-        margin-left: 15px;
-    }
+  .banner__title {
+    font-size: 2rem; 
+    max-width: 100%;
+  }
+
+  .banner__buttons {
+    margin-bottom: 1rem; 
+  }
 }
 
 
