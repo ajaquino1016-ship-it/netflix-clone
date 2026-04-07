@@ -25,6 +25,7 @@
     max-height: 170px; 
     margin-right: 10px;
     transition: transform 450ms;
+    min-width: 100px;
 }
 
 .row__poster:hover {
