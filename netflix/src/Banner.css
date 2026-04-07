@@ -1,58 +1,70 @@
-.banner{
-color: white;
-object-fit: contain;    
-height: 448px;
-}
-.banner__contents{
-margin-left: 30px;
-padding-top: 140px;
-height: 190px;
-
+.banner {
+    color: white;
+    object-fit: contain;
+    height: 110vh; 
+    position: relative;
+    margin-bottom: 1rem;  
 }
 
-.banner__title{
-font-size: 3rem;
-font-weight: 800;
-padding-bottom: 0.3rem;
-
+.banner__contents {
+    margin-left: 30px;
+    height: 190px;
 }
-.banner__description{
-width: 45rem;
-line-height: 1.3;
-padding-top: 1rem;
-font-size: 0.8rem;
-max-width: 360px;
-height: 80px;
+
+.banner__title {
+    
+    font-size: 3rem; 
+    font-weight: 900; 
+    padding-top: 160px; 
+    padding-bottom: 1rem;
+    max-width: 35rem;
+    transition: color 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.banner__description {
+    width: 40rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1rem;
+    max-width: 230px; 
+    height: 170px;
+   
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .banner__button {
     cursor: pointer;
-    color: #fff;
+    color: #ffffff;
     outline: none;
     border: none;
-    font-weight: 700;
-    border-radius: 0.2vw;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    font-weight: 900;
+    border-radius: 0.3vw;
+    padding: 1rem 2rem; 
     margin-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: rgba(51, 51, 51, 0.5);
-    transition: all 0.2s; 
-}
-
-.banner__button:hover {
-    color: #000;
-    background-color: #e6e6e6;
+    background-color: rgba(22, 17, 17, 0.5);
     transition: all 0.2s;
 }
 
+.banner__button:hover {
+    color: #ffffff;
+    background-color: #e91c1c; 
+}
+
 .banner--fadeBottom {
-    height: 7.4rem;
-    background-image: linear-gradient(
-        180deg,
-        transparent,
-        rgba(37, 37, 37, 0.61),
-        #111
-    );
-}   
+  height: 15.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(0, 0, 0, 0.61),
+    #000000
+  );
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
