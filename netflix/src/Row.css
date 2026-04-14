@@ -12,8 +12,7 @@
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    padding: 30px; 
-    scroll-behavior: auto; 
+    padding: 20px;
 }
 
 .row__posters::-webkit-scrollbar {
@@ -26,8 +25,7 @@
     max-height: 170px; 
     margin-right: 10px;
     transition: transform 450ms;
-    user-select: none;
-    -webkit-user-drag: none;
+    min-width: 100px;
 }
 
 .row__poster:hover {
